@@ -4,7 +4,7 @@
           hour = minute * 60,
           day = hour * 24;
   
-    let newYears = "Dec 31, 2022 00:00:00",
+    let newYears = "Jan 01, 2023 00:00:00",
         countDown = new Date(newYears).getTime(),
         x = setInterval(function() {    
   
@@ -22,10 +22,12 @@
                 countdown = document.getElementById("countdown"),
                 content = document.getElementById("content");
   
-            headline.innerText = "Happy New Years 2023";
+            headline.innerText = "Happy New Years 2023 It will be a wonderful Year!!!! ";
             countdown.style.display = "none";
             content.style.display = "block";
-  
+
+          
+
             clearInterval(x);
           }
           //seconds
